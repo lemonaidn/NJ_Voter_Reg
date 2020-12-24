@@ -36,7 +36,18 @@ fluidPage(theme = shinytheme('cerulean'),
             tabsetPanel(
                 
                 tabPanel('Home',
-                    'This is just a test!'
+                    'This web app provides insights into voter registration rates across New Jersey, and demonstrates the impact caused by COVID lockdowns on voter registration.',
+                    "Data is sourced from the NJ Division of Elections Voter Registration Statistics Archive, which can be accessed at https://www.state.nj.us/state/elections/election-information-svrs.shtml",
+                    "This web app will be updated at the beginning of 2021, when full statistics for 2020 are available.",
+                    "There is also a small amount of incomplete data for 2016 due to incorrectly uploaded data on the Division of Elections Archive. An Open Public Records Act Request (OPRA) has been filed to obtain the correct data.",
+                    "However, an analysis of the currently available data already reveals the intense impact that COVID restrictions had on the ability of NJ citizens to register to vote.",
+                    "While there was only one instance of near- or below-zero Percent Change in monthly registrations across all congressional districts in 2016, there were at least 12 such incidents in 2020.",
+                    "This was followed by an unprecedented rush of new registrations leading up to the 2020 voter registration deadline.",
+                    "These numbers suggest the need for increased access to alternative registration methods for voters in NJ, and highlights the difficulty that citizens may have when in-person egistration is unavailable or inconvenient.",
+                    "Please use the drop-down menu above to select whether to view statewide statistics, or data for a specific congressional district.",
+                    "You can also select year, and whether to generate visualizations or data tables, using the blue tabs above.",
+                    "Requests and suggestions for additional functionality can be sent to hughes@nextsteppolitics.com"
+                    
                 ),
                 
                 tabPanel('2016 Plot',
